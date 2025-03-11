@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{372AC622-DFE3-4C0D-8B86-D10D3CFE0A99}|Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj|c:\\users\\hp\\onedrive\\documentos\\semestre3\\bases\\tarea1-pruebadeconcepto\\tarea1-pruebadeconcepto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{372AC622-DFE3-4C0D-8B86-D10D3CFE0A99}|Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj|solutionrelative:tarea1-pruebadeconcepto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{372AC622-DFE3-4C0D-8B86-D10D3CFE0A99}|Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj|c:\\users\\hp\\onedrive\\documentos\\semestre3\\bases\\tarea1-pruebadeconcepto\\tarea1-pruebadeconcepto\\accesobd\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{372AC622-DFE3-4C0D-8B86-D10D3CFE0A99}|Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj|solutionrelative:tarea1-pruebadeconcepto\\accesobd\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{372AC622-DFE3-4C0D-8B86-D10D3CFE0A99}|Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj|c:\\users\\hp\\onedrive\\documentos\\semestre3\\bases\\tarea1-pruebadeconcepto\\tarea1-pruebadeconcepto\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{372AC622-DFE3-4C0D-8B86-D10D3CFE0A99}|Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj|solutionrelative:tarea1-pruebadeconcepto\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{372AC622-DFE3-4C0D-8B86-D10D3CFE0A99}|Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj|c:\\users\\hp\\onedrive\\documentos\\semestre3\\bases\\tarea1-pruebadeconcepto\\tarea1-pruebadeconcepto\\wwwroot\\html\\vistausuario.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{372AC622-DFE3-4C0D-8B86-D10D3CFE0A99}|Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj|solutionrelative:tarea1-pruebadeconcepto\\wwwroot\\html\\vistausuario.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{372AC622-DFE3-4C0D-8B86-D10D3CFE0A99}|Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj|c:\\users\\hp\\onedrive\\documentos\\semestre3\\bases\\tarea1-pruebadeconcepto\\tarea1-pruebadeconcepto\\wwwroot\\css\\fontsyestilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{372AC622-DFE3-4C0D-8B86-D10D3CFE0A99}|Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj|solutionrelative:tarea1-pruebadeconcepto\\wwwroot\\css\\fontsyestilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\AccesoBD\\Class.cs",
+              "RelativeDocumentMoniker": "Tarea1-PruebaDeConcepto\\AccesoBD\\Class.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\AccesoBD\\Class.cs",
+              "RelativeToolTip": "Tarea1-PruebaDeConcepto\\AccesoBD\\Class.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAwAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T01:21:53.562Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Program.cs",
+              "RelativeDocumentMoniker": "Tarea1-PruebaDeConcepto\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Program.cs",
+              "RelativeToolTip": "Tarea1-PruebaDeConcepto\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T00:49:22Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Script.js",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js",
+              "RelativeDocumentMoniker": "Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js",
+              "RelativeToolTip": "Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-11T00:46:37.601Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FontsYEstilos.css",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\css\\FontsYEstilos.css",
+              "RelativeDocumentMoniker": "Tarea1-PruebaDeConcepto\\wwwroot\\css\\FontsYEstilos.css",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\css\\FontsYEstilos.css",
+              "RelativeToolTip": "Tarea1-PruebaDeConcepto\\wwwroot\\css\\FontsYEstilos.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-11T00:45:38.397Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VistaUsuario.html",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\html\\VistaUsuario.html",
+              "RelativeDocumentMoniker": "Tarea1-PruebaDeConcepto\\wwwroot\\html\\VistaUsuario.html",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\html\\VistaUsuario.html",
+              "RelativeToolTip": "Tarea1-PruebaDeConcepto\\wwwroot\\html\\VistaUsuario.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-11T00:44:21.672Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

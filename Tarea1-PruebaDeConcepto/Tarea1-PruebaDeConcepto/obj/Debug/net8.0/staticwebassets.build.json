@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "7RSKLK6/Ai4uOHV4glKSqi+SelY0rx7kY6rLr+2yrnk=",
+  "Source": "Tarea1-PruebaDeConcepto",
+  "BasePath": "_content/Tarea1-PruebaDeConcepto",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Tarea1-PruebaDeConcepto\\wwwroot",
+      "Source": "Tarea1-PruebaDeConcepto",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\",
+      "BasePath": "_content/Tarea1-PruebaDeConcepto",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\css\\FontsYEstilos.css",
+      "SourceId": "Tarea1-PruebaDeConcepto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\",
+      "BasePath": "_content/Tarea1-PruebaDeConcepto",
+      "RelativePath": "css/FontsYEstilos#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oiw6zreu69",
+      "Integrity": "4GayzqvC5y2KO5QyWzjZD1C0FV/vnTipRCWpVDsvslw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\FontsYEstilos.css"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\html\\VistaUsuario.html",
+      "SourceId": "Tarea1-PruebaDeConcepto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\",
+      "BasePath": "_content/Tarea1-PruebaDeConcepto",
+      "RelativePath": "html/VistaUsuario#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "21khj8zglc",
+      "Integrity": "Wj2f0LsMWEPGSU6rtnkCAkU1VZgTe0ttVAisTVTx/G0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\VistaUsuario.html"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js",
+      "SourceId": "Tarea1-PruebaDeConcepto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\",
+      "BasePath": "_content/Tarea1-PruebaDeConcepto",
+      "RelativePath": "js/Script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bfg1j4yeht",
+      "Integrity": "ZywPwF63HPogVO16AzTP1xFdYQuoQnZXtN5LQsoKK9M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Script.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/FontsYEstilos.css",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\css\\FontsYEstilos.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4GayzqvC5y2KO5QyWzjZD1C0FV/vnTipRCWpVDsvslw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 00:45:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4GayzqvC5y2KO5QyWzjZD1C0FV/vnTipRCWpVDsvslw="
+        }
+      ]
+    },
+    {
+      "Route": "css/FontsYEstilos.oiw6zreu69.css",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\css\\FontsYEstilos.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4GayzqvC5y2KO5QyWzjZD1C0FV/vnTipRCWpVDsvslw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 00:45:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oiw6zreu69"
+        },
+        {
+          "Name": "label",
+          "Value": "css/FontsYEstilos.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4GayzqvC5y2KO5QyWzjZD1C0FV/vnTipRCWpVDsvslw="
+        }
+      ]
+    },
+    {
+      "Route": "html/VistaUsuario.21khj8zglc.html",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\html\\VistaUsuario.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "267"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wj2f0LsMWEPGSU6rtnkCAkU1VZgTe0ttVAisTVTx/G0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 00:45:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "21khj8zglc"
+        },
+        {
+          "Name": "label",
+          "Value": "html/VistaUsuario.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wj2f0LsMWEPGSU6rtnkCAkU1VZgTe0ttVAisTVTx/G0="
+        }
+      ]
+    },
+    {
+      "Route": "html/VistaUsuario.html",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\html\\VistaUsuario.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "267"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wj2f0LsMWEPGSU6rtnkCAkU1VZgTe0ttVAisTVTx/G0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 00:45:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wj2f0LsMWEPGSU6rtnkCAkU1VZgTe0ttVAisTVTx/G0="
+        }
+      ]
+    },
+    {
+      "Route": "js/Script.bfg1j4yeht.js",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZywPwF63HPogVO16AzTP1xFdYQuoQnZXtN5LQsoKK9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 00:46:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bfg1j4yeht"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZywPwF63HPogVO16AzTP1xFdYQuoQnZXtN5LQsoKK9M="
+        }
+      ]
+    },
+    {
+      "Route": "js/Script.js",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZywPwF63HPogVO16AzTP1xFdYQuoQnZXtN5LQsoKK9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 00:46:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZywPwF63HPogVO16AzTP1xFdYQuoQnZXtN5LQsoKK9M="
+        }
+      ]
+    }
+  ]
+}
