@@ -1,5 +1,36 @@
 [
   {
+    "ContainingType": "AccesarBD",
+    "Method": "InsertarEmpleado",
+    "RelativePath": "api/AccesarBD/InsertarEmpleado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Salario",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AccesarBD",
+    "Method": "MostrarEmpleados",
+    "RelativePath": "api/AccesarBD/MostrarEmpleados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Tarea1_PruebaDeConcepto.Controllers.HomeController",
     "Method": "Get",
     "RelativePath": "api/Home",

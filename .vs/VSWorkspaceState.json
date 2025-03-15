@@ -3,8 +3,11 @@
     "",
     "\\Tarea1-PruebaDeConcepto",
     "\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto",
-    "\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\AccesoBD"
+    "\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Properties",
+    "\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot",
+    "\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\css",
+    "\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js"
   ],
-  "SelectedNode": "\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\AccesoBD\\AccesarBD.cs",
+  "SelectedNode": "\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.sln",
   "PreviewInSolutionExplorer": false
 }
