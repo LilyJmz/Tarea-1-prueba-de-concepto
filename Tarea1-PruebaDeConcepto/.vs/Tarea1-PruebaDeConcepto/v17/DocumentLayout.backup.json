@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\",
+  "WorkspaceRootPath": "C:\\Users\\Andres\\Desktop\\Tarea1-PruebaDeConcepto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10F17F60-3D57-4466-8511-A31ABF5CD865}|Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj|c:\\users\\andres\\documents\\github\\tarea-1-prueba-de-concepto\\tarea1-pruebadeconcepto\\tarea1-pruebadeconcepto\\accesobd\\accesarbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{10F17F60-3D57-4466-8511-A31ABF5CD865}|Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj|c:\\users\\andres\\desktop\\tarea1-pruebadeconcepto\\tarea1-pruebadeconcepto\\accesobd\\accesarbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10F17F60-3D57-4466-8511-A31ABF5CD865}|Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj|solutionrelative:tarea1-pruebadeconcepto\\accesobd\\accesarbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10F17F60-3D57-4466-8511-A31ABF5CD865}|Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj|c:\\users\\andres\\documents\\github\\tarea-1-prueba-de-concepto\\tarea1-pruebadeconcepto\\tarea1-pruebadeconcepto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{10F17F60-3D57-4466-8511-A31ABF5CD865}|Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj|c:\\users\\andres\\desktop\\tarea1-pruebadeconcepto\\tarea1-pruebadeconcepto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10F17F60-3D57-4466-8511-A31ABF5CD865}|Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj|solutionrelative:tarea1-pruebadeconcepto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AccesarBD.cs",
-              "DocumentMoniker": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\AccesoBD\\AccesarBD.cs",
+              "DocumentMoniker": "C:\\Users\\Andres\\Desktop\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\AccesoBD\\AccesarBD.cs",
               "RelativeDocumentMoniker": "Tarea1-PruebaDeConcepto\\AccesoBD\\AccesarBD.cs",
-              "ToolTip": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\AccesoBD\\AccesarBD.cs",
+              "ToolTip": "C:\\Users\\Andres\\Desktop\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\AccesoBD\\AccesarBD.cs",
               "RelativeToolTip": "Tarea1-PruebaDeConcepto\\AccesoBD\\AccesarBD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -41,13 +41,14 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Andres\\Desktop\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Program.cs",
               "RelativeDocumentMoniker": "Tarea1-PruebaDeConcepto\\Program.cs",
-              "ToolTip": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Program.cs",
+              "ToolTip": "C:\\Users\\Andres\\Desktop\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Program.cs",
               "RelativeToolTip": "Tarea1-PruebaDeConcepto\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T00:48:04.335Z"
+              "WhenOpened": "2025-03-15T00:48:04.335Z",
+              "EditorCaption": ""
             }
           ]
         }

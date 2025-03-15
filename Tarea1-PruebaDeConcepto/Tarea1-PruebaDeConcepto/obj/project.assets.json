@@ -1672,11 +1672,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andres\\Desktop\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj",
+      "projectUniqueName": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj",
       "projectName": "Tarea1-PruebaDeConcepto",
-      "projectPath": "C:\\Users\\Andres\\Desktop\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj",
+      "projectPath": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.csproj",
       "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andres\\Desktop\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\obj\\",
+      "outputPath": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
