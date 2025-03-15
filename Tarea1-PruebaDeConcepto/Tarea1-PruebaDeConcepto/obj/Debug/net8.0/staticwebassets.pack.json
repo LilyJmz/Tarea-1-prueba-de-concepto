@@ -1,12 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\css\\FontsYEstilos.css",
-      "PackagePath": "staticwebassets\\css\\FontsYEstilos.css"
+      "Id": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html",
+      "PackagePath": "staticwebassets\\VistaUsuario.html"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\html\\VistaUsuario.html",
-      "PackagePath": "staticwebassets\\html\\VistaUsuario.html"
+      "Id": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\css\\FontsYEstilos.css",
+      "PackagePath": "staticwebassets\\css\\FontsYEstilos.css"
     },
     {
       "Id": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js",
