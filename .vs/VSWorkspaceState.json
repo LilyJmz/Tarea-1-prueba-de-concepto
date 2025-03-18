@@ -3,11 +3,13 @@
     "",
     "\\Tarea1-PruebaDeConcepto",
     "\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto",
+    "\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Controllers",
+    "\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Modelos",
     "\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Properties",
     "\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot",
     "\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\css",
     "\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js"
   ],
-  "SelectedNode": "\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.sln",
+  "SelectedNode": "\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js",
   "PreviewInSolutionExplorer": false
 }
