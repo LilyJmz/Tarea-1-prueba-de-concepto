@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Controllers\\AccesarBD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Controllers\\AccesarBD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
@@ -19,12 +11,26 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Andres\\AppData\\Local\\Temp\\Rar$DRa16192.18700\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Andres\\Desktop\\InsertarEmpleado.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Controllers\\AccesarBD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Controllers\\AccesarBD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +40,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,13 +48,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "VistaUsuario.html",
+              "DocumentMoniker": "C:\\Users\\Andres\\AppData\\Local\\Temp\\Rar$DRa16192.18700\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\Rar$DRa16192.18700\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html",
+              "ToolTip": "C:\\Users\\Andres\\AppData\\Local\\Temp\\Rar$DRa16192.18700\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\Rar$DRa16192.18700\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-18T18:09:37.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InsertarEmpleado.html",
+              "DocumentMoniker": "C:\\Users\\Andres\\Desktop\\InsertarEmpleado.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\InsertarEmpleado.html",
+              "ToolTip": "C:\\Users\\Andres\\Desktop\\InsertarEmpleado.html",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\InsertarEmpleado.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-18T18:07:41.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AccesarBD.cs",
               "DocumentMoniker": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Controllers\\AccesarBD.cs",
               "RelativeDocumentMoniker": "Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Controllers\\AccesarBD.cs",
               "ToolTip": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Controllers\\AccesarBD.cs",
               "RelativeToolTip": "Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Controllers\\AccesarBD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAswEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T23:44:40.524Z",
               "EditorCaption": ""
@@ -81,20 +113,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "VistaUsuario.html",
               "DocumentMoniker": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html",
               "RelativeDocumentMoniker": "Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html",
               "ToolTip": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html",
               "RelativeToolTip": "Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-03-15T01:05:51.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Tarea1-PruebaDeConcepto.http",
               "DocumentMoniker": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.http",
               "RelativeDocumentMoniker": "Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto.http",
@@ -107,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Properties\\launchSettings.json",
@@ -115,8 +147,7 @@
               "RelativeToolTip": "Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-15T01:04:23.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T01:04:23.776Z"
             }
           ]
         }

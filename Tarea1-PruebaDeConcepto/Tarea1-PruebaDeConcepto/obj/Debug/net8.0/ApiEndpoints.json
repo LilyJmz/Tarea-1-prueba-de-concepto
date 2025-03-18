@@ -1,34 +1,49 @@
 [
   {
-    "ContainingType": "AccesarBD",
+    "ContainingType": "Tarea1_PruebaDeConcepto.Controllers.BDController",
     "Method": "InsertarEmpleado",
-    "RelativePath": "api/AccesarBD/InsertarEmpleado",
-    "HttpMethod": "GET",
+    "RelativePath": "api/BD/Insertar",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Nombre",
-        "Type": "System.String",
+        "Name": "empleado",
+        "Type": "Tarea1_PruebaDeConcepto.Modelos.Empleado",
         "IsRequired": true
-      },
-      {
-        "Name": "Salario",
-        "Type": "System.Double",
-        "IsRequired": false
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
-    "ContainingType": "AccesarBD",
+    "ContainingType": "Tarea1_PruebaDeConcepto.Controllers.BDController",
     "Method": "MostrarEmpleados",
-    "RelativePath": "api/AccesarBD/MostrarEmpleados",
+    "RelativePath": "api/BD/Mostrar",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Tarea1_PruebaDeConcepto.Modelos.Empleado, Tarea1-PruebaDeConcepto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "Tarea1_PruebaDeConcepto.Controllers.HomeController",

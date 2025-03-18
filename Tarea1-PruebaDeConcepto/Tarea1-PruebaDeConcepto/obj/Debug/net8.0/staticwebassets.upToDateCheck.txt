@@ -1,3 +1,4 @@
 wwwroot\css\FontsYEstilos.css
+wwwroot\InsertarEmpleado.html
 wwwroot\js\Script.js
 wwwroot\VistaUsuario.html

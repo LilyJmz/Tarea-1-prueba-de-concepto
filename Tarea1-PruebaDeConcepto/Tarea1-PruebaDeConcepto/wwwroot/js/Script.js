@@ -5,7 +5,7 @@
 
         const tbody = document.querySelector("#datosTabla");
 
-        for (let i = 0; i < 1; i++) {
+        for (let i = 0; i < 1; i++) { //En donde 1 se va resultado.lenght u otro para poder la cantidad de datos en tabla
             //console.log(resultado[i]);
 
             const trInicio = document.createElement("tr");
@@ -30,4 +30,40 @@
     }
 }
 
-MostrarEmpleado();
+//Acciones en html
+document.addEventListener('DOMContentLoaded', function () {
+    const button = document.getElementById('irInsertarEmpleado');
+    button.addEventListener('click', function () {
+        window.location.href = 'InsertarEmpleado.html';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const button = document.getElementById('accionInsertar');
+    button.addEventListener('click', function () {
+        const nombre = document.getElementById('nombre').innerText;
+        const salario = document.getElementById('salario').innerText;
+        insertarEmpleado(nombre, salario)
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const button = document.getElementById('regresarInsertarVista');
+    button.addEventListener('click', function () {
+        window.location.href = 'VistaUsuario.html';
+    });
+});
+
+function insertarEmpleado(nombre, salario) {
+    fetch('https://localhost:5001/api/Empleado/Insertar', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            nombre: nombre,
+            salario: salario
+        }),
+    }).then(respuesta => respuesta.json())
+        .then(datos => console.log(datos))
+}

@@ -1,87 +1,82 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
 using System.Data;
 using Tarea1_PruebaDeConcepto.Modelos;
 
-[Route("api/[controller]")]
-[ApiController]
-public class AccesarBD : ControllerBase
+public class AccesarBD
 {
-    //String de conexión a BD
-    string connectionString = "Server=25.55.61.33;Database=Prueba;Trusted_Connection=True;TrustServerCertificate=True;";
-
-    //Api que se encarga de llamar el stored procesure de la base de datos, y espera a ser llamado para ejecutarse
-    [HttpGet("InsertarEmpleado")]
-    //Insertar Empleados conectado a controlador
-    public async Task<IActionResult> InsertarEmpleado([FromBody] String Nombre, double Salario)
+    public static int InsertarEmpleado(string nombre, double salario)
     {
-        using (SqlConnection conn = new SqlConnection(connectionString))
+        //String de conexión a BD
+        string SringConexion = "Server=25.55.61.33;Database=Prueba;Trusted_Connection=True;TrustServerCertificate=True;";
+
+        try
         {
-            try
+            using (SqlConnection con = new SqlConnection(SringConexion))
             {
-                //Abre conexión
-                await conn.OpenAsync();
-
-                //Asocia la variable Insertar empleado a el stored procedure InsertarEmpleado
-                using (SqlCommand InsertarEmpleado = new SqlCommand("InsertarEmpleado", conn))
+                //Abre conexión y se crea el comando insertar
+                con.Open();
+                using (SqlCommand insertar = new SqlCommand("InsertarEmpleado", con))
                 {
-                    //Crea un tipo de comando stored procedure
-                    InsertarEmpleado.CommandType = CommandType.StoredProcedure;
+                    //Envia parámetros de entrada
+                    insertar.CommandType = CommandType.StoredProcedure;
+                    insertar.Parameters.Add("@inNombre", SqlDbType.VarChar).Value = nombre;
+                    insertar.Parameters.Add("@inSalario", SqlDbType.Money).Value = salario;
 
-                    //Agrega los parámetros
-                    InsertarEmpleado.Parameters.Add("@Nombre", SqlDbType.VarChar).Value = Nombre;
-                    InsertarEmpleado.Parameters.Add("@Salario", SqlDbType.Money).Value = Salario;
+                    //Recibe el código de error
+                    SqlParameter outCodigoError = new SqlParameter();
+                    outCodigoError.ParameterName = "@outCodigoError";
+                    outCodigoError.SqlDbType = SqlDbType.Int;
+                    outCodigoError.Direction = ParameterDirection.Output;
+                    insertar.Parameters.Add(outCodigoError);
 
-                    await InsertarEmpleado.ExecuteNonQueryAsync();
-                    return Ok("Exito llamando a insertar");
+                    //Se ejecuta el Stored procedure
+                    insertar.ExecuteNonQuery();
+
+                    //Devuelve el código de error
+                    return (int)outCodigoError.Value;
                 }
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error de conexión al insertar");
-                return Ok("");
-                //Si algo sale mal escribe un mensaje de error
-            }
+        }
+        catch (Exception ex)
+        {
+            //Error en capa lógica
+            Console.WriteLine("Error al insertar empleado: " + ex.Message);
+            return 50005;
         }
     }
 
-
-
-    [HttpGet("MostrarEmpleados")]
-    //Insertar Empleados conectado a controlador
-    public async Task<IActionResult> MostrarEmpleados()
+    public static List<Empleado> MostrarEmpleados()
     {
-        using (SqlConnection conn = new SqlConnection(connectionString))
+        string SringConexion = "Server=25.55.61.33;Database=Prueba;Trusted_Connection=True;TrustServerCertificate=True;";
+
+        //Crea una lista de empleados vacía
+        List<Empleado> empleados = new List<Empleado>();
+
+        try
         {
-            try
+            using (SqlConnection con = new SqlConnection(SringConexion))
             {
-                //Abre conexión
-                await conn.OpenAsync();
-
-                //Asocia la variable Insertar empleado a el stored procedure InsertarEmpleado
-                using (SqlCommand MostrarEmpleados = new SqlCommand("MostrarEmpleados", conn))
+                con.Open();
+                using (SqlCommand mostrar = new SqlCommand("MostrarEmpleados", con))
                 {
-                    //Crea un tipo de comando stored procedure
-                    MostrarEmpleados.CommandType = CommandType.StoredProcedure;
+                    mostrar.CommandType = CommandType.StoredProcedure;
 
-                    using (SqlDataReader reader = await MostrarEmpleados.ExecuteReaderAsync())
+                    using (SqlDataReader reader = mostrar.ExecuteReader())
                     {
-                        var resultados = new List<Empleado>();
-                        while (await reader.ReadAsync())
+                        //Mientras haya registros en la tabla, los va almacenando como empleados
+                        while (reader.Read())
                         {
-                            resultados.Add(new Empleado(reader.GetInt32(0), reader.GetString(1), reader.GetDouble(2)));
+                            empleados.Add(new Empleado(reader.GetInt32(0), reader.GetString(1), reader.GetDouble(2)));
                         }
-                        return Ok(resultados);
                     }
-
                 }
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error de conexión al mostrar");
-                return Ok("");
-                //Si algo sale mal escribe un mensaje de error
-            }
         }
+        catch (Exception ex)
+        {
+            //Error en capa lógica
+            Console.WriteLine("Error al mostrar empleados: " + ex.Message);
+        }
+        return empleados;
     }
 }

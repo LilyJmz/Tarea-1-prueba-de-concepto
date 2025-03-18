@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6ih+Ceam7QjsMeHqXqosnzpei3FA2zeRZ2pRu24/geE=",
+  "Hash": "/gmqt+ec88L52pXt5wgdzLPlGrZ9vSEBWxQXR8CwXiQ=",
   "Source": "Tarea1-PruebaDeConcepto",
   "BasePath": "_content/Tarea1-PruebaDeConcepto",
   "Mode": "Default",
@@ -31,11 +31,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "oiw6zreu69",
-      "Integrity": "4GayzqvC5y2KO5QyWzjZD1C0FV/vnTipRCWpVDsvslw=",
+      "Fingerprint": "7wmnaw7lns",
+      "Integrity": "WbLeG15wK5fmLwz9acy0gcZmY9S04DKDcFiCHIB544s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\FontsYEstilos.css"
+    },
+    {
+      "Identity": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\InsertarEmpleado.html",
+      "SourceId": "Tarea1-PruebaDeConcepto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\",
+      "BasePath": "_content/Tarea1-PruebaDeConcepto",
+      "RelativePath": "InsertarEmpleado#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fipur0i0v7",
+      "Integrity": "WQicLLCT+wiRZq4Y+uRW65JIeN0HzapQr+t0zVB1n9U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\InsertarEmpleado.html"
     },
     {
       "Identity": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js",
@@ -52,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "66f8dv0md5",
-      "Integrity": "Mni4VkXgM+vLMVac1ZjR7qVJgHpkawkW5f5F6BHmJv0=",
+      "Fingerprint": "5765u849eh",
+      "Integrity": "oSwomwH7huR6zhvuIhU+eodLrKqxJ9fuF6w5HgBb6nU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Script.js"
@@ -73,14 +94,59 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "h5svccsxgy",
-      "Integrity": "Rdw9+3SUaQULlJY/ARdXL/x8wNqEMRymgM/bYwFwG1Y=",
+      "Fingerprint": "vzj698jfqu",
+      "Integrity": "RZxZlse2Q5mT5pPEYCYPm5tMyfRgEvkxIUaV88BabYo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\VistaUsuario.html"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/FontsYEstilos.7wmnaw7lns.css",
+      "AssetFile": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\css\\FontsYEstilos.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WbLeG15wK5fmLwz9acy0gcZmY9S04DKDcFiCHIB544s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 18:16:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7wmnaw7lns"
+        },
+        {
+          "Name": "label",
+          "Value": "css/FontsYEstilos.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WbLeG15wK5fmLwz9acy0gcZmY9S04DKDcFiCHIB544s="
+        }
+      ]
+    },
     {
       "Route": "css/FontsYEstilos.css",
       "AssetFile": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\css\\FontsYEstilos.css",
@@ -92,7 +158,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "44"
+          "Value": "424"
         },
         {
           "Name": "Content-Type",
@@ -100,11 +166,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4GayzqvC5y2KO5QyWzjZD1C0FV/vnTipRCWpVDsvslw=\""
+          "Value": "\"WbLeG15wK5fmLwz9acy0gcZmY9S04DKDcFiCHIB544s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 04:42:06 GMT"
+          "Value": "Tue, 18 Mar 2025 18:16:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -114,13 +180,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4GayzqvC5y2KO5QyWzjZD1C0FV/vnTipRCWpVDsvslw="
+          "Value": "sha256-WbLeG15wK5fmLwz9acy0gcZmY9S04DKDcFiCHIB544s="
         }
       ]
     },
     {
-      "Route": "css/FontsYEstilos.oiw6zreu69.css",
-      "AssetFile": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\css\\FontsYEstilos.css",
+      "Route": "InsertarEmpleado.fipur0i0v7.html",
+      "AssetFile": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\InsertarEmpleado.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -129,19 +195,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "44"
+          "Value": "592"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "text/html"
         },
         {
           "Name": "ETag",
-          "Value": "\"4GayzqvC5y2KO5QyWzjZD1C0FV/vnTipRCWpVDsvslw=\""
+          "Value": "\"WQicLLCT+wiRZq4Y+uRW65JIeN0HzapQr+t0zVB1n9U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 04:42:06 GMT"
+          "Value": "Tue, 18 Mar 2025 01:23:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -151,20 +217,57 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "oiw6zreu69"
+          "Value": "fipur0i0v7"
         },
         {
           "Name": "label",
-          "Value": "css/FontsYEstilos.css"
+          "Value": "InsertarEmpleado.html"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4GayzqvC5y2KO5QyWzjZD1C0FV/vnTipRCWpVDsvslw="
+          "Value": "sha256-WQicLLCT+wiRZq4Y+uRW65JIeN0HzapQr+t0zVB1n9U="
         }
       ]
     },
     {
-      "Route": "js/Script.66f8dv0md5.js",
+      "Route": "InsertarEmpleado.html",
+      "AssetFile": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\InsertarEmpleado.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WQicLLCT+wiRZq4Y+uRW65JIeN0HzapQr+t0zVB1n9U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 01:23:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WQicLLCT+wiRZq4Y+uRW65JIeN0HzapQr+t0zVB1n9U="
+        }
+      ]
+    },
+    {
+      "Route": "js/Script.5765u849eh.js",
       "AssetFile": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -174,7 +277,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1131"
+          "Value": "2421"
         },
         {
           "Name": "Content-Type",
@@ -182,11 +285,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Mni4VkXgM+vLMVac1ZjR7qVJgHpkawkW5f5F6BHmJv0=\""
+          "Value": "\"oSwomwH7huR6zhvuIhU+eodLrKqxJ9fuF6w5HgBb6nU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 23:25:33 GMT"
+          "Value": "Tue, 18 Mar 2025 18:32:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -196,7 +299,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "66f8dv0md5"
+          "Value": "5765u849eh"
         },
         {
           "Name": "label",
@@ -204,7 +307,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Mni4VkXgM+vLMVac1ZjR7qVJgHpkawkW5f5F6BHmJv0="
+          "Value": "sha256-oSwomwH7huR6zhvuIhU+eodLrKqxJ9fuF6w5HgBb6nU="
         }
       ]
     },
@@ -219,7 +322,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1131"
+          "Value": "2421"
         },
         {
           "Name": "Content-Type",
@@ -227,11 +330,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Mni4VkXgM+vLMVac1ZjR7qVJgHpkawkW5f5F6BHmJv0=\""
+          "Value": "\"oSwomwH7huR6zhvuIhU+eodLrKqxJ9fuF6w5HgBb6nU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 23:25:33 GMT"
+          "Value": "Tue, 18 Mar 2025 18:32:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -241,52 +344,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Mni4VkXgM+vLMVac1ZjR7qVJgHpkawkW5f5F6BHmJv0="
-        }
-      ]
-    },
-    {
-      "Route": "VistaUsuario.h5svccsxgy.html",
-      "AssetFile": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "579"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Rdw9+3SUaQULlJY/ARdXL/x8wNqEMRymgM/bYwFwG1Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 23:24:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "h5svccsxgy"
-        },
-        {
-          "Name": "label",
-          "Value": "VistaUsuario.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Rdw9+3SUaQULlJY/ARdXL/x8wNqEMRymgM/bYwFwG1Y="
+          "Value": "sha256-oSwomwH7huR6zhvuIhU+eodLrKqxJ9fuF6w5HgBb6nU="
         }
       ]
     },
@@ -301,7 +359,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "579"
+          "Value": "678"
         },
         {
           "Name": "Content-Type",
@@ -309,11 +367,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Rdw9+3SUaQULlJY/ARdXL/x8wNqEMRymgM/bYwFwG1Y=\""
+          "Value": "\"RZxZlse2Q5mT5pPEYCYPm5tMyfRgEvkxIUaV88BabYo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 23:24:45 GMT"
+          "Value": "Tue, 18 Mar 2025 18:32:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -323,7 +381,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Rdw9+3SUaQULlJY/ARdXL/x8wNqEMRymgM/bYwFwG1Y="
+          "Value": "sha256-RZxZlse2Q5mT5pPEYCYPm5tMyfRgEvkxIUaV88BabYo="
+        }
+      ]
+    },
+    {
+      "Route": "VistaUsuario.vzj698jfqu.html",
+      "AssetFile": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "678"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RZxZlse2Q5mT5pPEYCYPm5tMyfRgEvkxIUaV88BabYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 18:32:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vzj698jfqu"
+        },
+        {
+          "Name": "label",
+          "Value": "VistaUsuario.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RZxZlse2Q5mT5pPEYCYPm5tMyfRgEvkxIUaV88BabYo="
         }
       ]
     }

@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\InsertarEmpleado.html",
+      "PackagePath": "staticwebassets\\InsertarEmpleado.html"
+    },
+    {
       "Id": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html",
       "PackagePath": "staticwebassets\\VistaUsuario.html"
     },
