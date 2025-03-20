@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/gmqt+ec88L52pXt5wgdzLPlGrZ9vSEBWxQXR8CwXiQ=",
+  "Hash": "+eiObqjxdQ1hxqn1msqdhVIaA1GK9dQ+RI3hKi8q0C0=",
   "Source": "Tarea1-PruebaDeConcepto",
   "BasePath": "_content/Tarea1-PruebaDeConcepto",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Tarea1-PruebaDeConcepto\\wwwroot",
       "Source": "Tarea1-PruebaDeConcepto",
-      "ContentRoot": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\",
       "BasePath": "_content/Tarea1-PruebaDeConcepto",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\css\\FontsYEstilos.css",
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\css\\FontsYEstilos.css",
       "SourceId": "Tarea1-PruebaDeConcepto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\",
       "BasePath": "_content/Tarea1-PruebaDeConcepto",
       "RelativePath": "css/FontsYEstilos#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -31,17 +31,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7wmnaw7lns",
-      "Integrity": "WbLeG15wK5fmLwz9acy0gcZmY9S04DKDcFiCHIB544s=",
+      "Fingerprint": "98uf0cobig",
+      "Integrity": "N8k8oonkZkvlrfElAqOMweMHyDMsHvzh9SgpuPb9hYM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\FontsYEstilos.css"
     },
     {
-      "Identity": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\InsertarEmpleado.html",
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\InsertarEmpleado.html",
       "SourceId": "Tarea1-PruebaDeConcepto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\",
       "BasePath": "_content/Tarea1-PruebaDeConcepto",
       "RelativePath": "InsertarEmpleado#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\InsertarEmpleado.html"
     },
     {
-      "Identity": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js",
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js",
       "SourceId": "Tarea1-PruebaDeConcepto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\",
       "BasePath": "_content/Tarea1-PruebaDeConcepto",
       "RelativePath": "js/Script#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -73,17 +73,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5765u849eh",
-      "Integrity": "oSwomwH7huR6zhvuIhU+eodLrKqxJ9fuF6w5HgBb6nU=",
+      "Fingerprint": "udojbd08c1",
+      "Integrity": "zr4LbC4xSQyw3zVX7eN163iOsz8rFNS1dXS+T1qU/jU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Script.js"
     },
     {
-      "Identity": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html",
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html",
       "SourceId": "Tarea1-PruebaDeConcepto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\",
       "BasePath": "_content/Tarea1-PruebaDeConcepto",
       "RelativePath": "VistaUsuario#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vzj698jfqu",
-      "Integrity": "RZxZlse2Q5mT5pPEYCYPm5tMyfRgEvkxIUaV88BabYo=",
+      "Fingerprint": "fgoa4esrhs",
+      "Integrity": "sWk1XbQhMFbJWzFGA1CkEbUFhxOs4rACVQJl5cbMUbY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\VistaUsuario.html"
@@ -103,8 +103,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/FontsYEstilos.7wmnaw7lns.css",
-      "AssetFile": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\css\\FontsYEstilos.css",
+      "Route": "css/FontsYEstilos.98uf0cobig.css",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\css\\FontsYEstilos.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -113,7 +113,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "424"
+          "Value": "396"
         },
         {
           "Name": "Content-Type",
@@ -121,11 +121,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WbLeG15wK5fmLwz9acy0gcZmY9S04DKDcFiCHIB544s=\""
+          "Value": "\"N8k8oonkZkvlrfElAqOMweMHyDMsHvzh9SgpuPb9hYM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 18:16:34 GMT"
+          "Value": "Thu, 20 Mar 2025 05:14:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -135,7 +135,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7wmnaw7lns"
+          "Value": "98uf0cobig"
         },
         {
           "Name": "label",
@@ -143,13 +143,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WbLeG15wK5fmLwz9acy0gcZmY9S04DKDcFiCHIB544s="
+          "Value": "sha256-N8k8oonkZkvlrfElAqOMweMHyDMsHvzh9SgpuPb9hYM="
         }
       ]
     },
     {
       "Route": "css/FontsYEstilos.css",
-      "AssetFile": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\css\\FontsYEstilos.css",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\css\\FontsYEstilos.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -158,7 +158,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "424"
+          "Value": "396"
         },
         {
           "Name": "Content-Type",
@@ -166,11 +166,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WbLeG15wK5fmLwz9acy0gcZmY9S04DKDcFiCHIB544s=\""
+          "Value": "\"N8k8oonkZkvlrfElAqOMweMHyDMsHvzh9SgpuPb9hYM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 18:16:34 GMT"
+          "Value": "Thu, 20 Mar 2025 05:14:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -180,13 +180,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WbLeG15wK5fmLwz9acy0gcZmY9S04DKDcFiCHIB544s="
+          "Value": "sha256-N8k8oonkZkvlrfElAqOMweMHyDMsHvzh9SgpuPb9hYM="
         }
       ]
     },
     {
       "Route": "InsertarEmpleado.fipur0i0v7.html",
-      "AssetFile": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\InsertarEmpleado.html",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\InsertarEmpleado.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -207,7 +207,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 01:23:42 GMT"
+          "Value": "Wed, 19 Mar 2025 02:36:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -231,7 +231,7 @@
     },
     {
       "Route": "InsertarEmpleado.html",
-      "AssetFile": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\InsertarEmpleado.html",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\InsertarEmpleado.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -252,7 +252,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 01:23:42 GMT"
+          "Value": "Wed, 19 Mar 2025 02:36:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -267,8 +267,8 @@
       ]
     },
     {
-      "Route": "js/Script.5765u849eh.js",
-      "AssetFile": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js",
+      "Route": "js/Script.js",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -277,7 +277,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2421"
+          "Value": "3946"
         },
         {
           "Name": "Content-Type",
@@ -285,11 +285,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oSwomwH7huR6zhvuIhU+eodLrKqxJ9fuF6w5HgBb6nU=\""
+          "Value": "\"zr4LbC4xSQyw3zVX7eN163iOsz8rFNS1dXS+T1qU/jU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 18:32:32 GMT"
+          "Value": "Thu, 20 Mar 2025 05:08:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zr4LbC4xSQyw3zVX7eN163iOsz8rFNS1dXS+T1qU/jU="
+        }
+      ]
+    },
+    {
+      "Route": "js/Script.udojbd08c1.js",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3946"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zr4LbC4xSQyw3zVX7eN163iOsz8rFNS1dXS+T1qU/jU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 05:08:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -299,7 +336,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5765u849eh"
+          "Value": "udojbd08c1"
         },
         {
           "Name": "label",
@@ -307,13 +344,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oSwomwH7huR6zhvuIhU+eodLrKqxJ9fuF6w5HgBb6nU="
+          "Value": "sha256-zr4LbC4xSQyw3zVX7eN163iOsz8rFNS1dXS+T1qU/jU="
         }
       ]
     },
     {
-      "Route": "js/Script.js",
-      "AssetFile": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\js\\Script.js",
+      "Route": "VistaUsuario.fgoa4esrhs.html",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -322,44 +359,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2421"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"oSwomwH7huR6zhvuIhU+eodLrKqxJ9fuF6w5HgBb6nU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 18:32:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-oSwomwH7huR6zhvuIhU+eodLrKqxJ9fuF6w5HgBb6nU="
-        }
-      ]
-    },
-    {
-      "Route": "VistaUsuario.html",
-      "AssetFile": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "678"
+          "Value": "548"
         },
         {
           "Name": "Content-Type",
@@ -367,48 +367,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RZxZlse2Q5mT5pPEYCYPm5tMyfRgEvkxIUaV88BabYo=\""
+          "Value": "\"sWk1XbQhMFbJWzFGA1CkEbUFhxOs4rACVQJl5cbMUbY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 18:32:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-RZxZlse2Q5mT5pPEYCYPm5tMyfRgEvkxIUaV88BabYo="
-        }
-      ]
-    },
-    {
-      "Route": "VistaUsuario.vzj698jfqu.html",
-      "AssetFile": "C:\\Users\\Andres\\Documents\\GitHub\\Tarea-1-prueba-de-concepto\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "678"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RZxZlse2Q5mT5pPEYCYPm5tMyfRgEvkxIUaV88BabYo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 18:32:54 GMT"
+          "Value": "Thu, 20 Mar 2025 05:16:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -418,7 +381,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vzj698jfqu"
+          "Value": "fgoa4esrhs"
         },
         {
           "Name": "label",
@@ -426,7 +389,44 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-RZxZlse2Q5mT5pPEYCYPm5tMyfRgEvkxIUaV88BabYo="
+          "Value": "sha256-sWk1XbQhMFbJWzFGA1CkEbUFhxOs4rACVQJl5cbMUbY="
+        }
+      ]
+    },
+    {
+      "Route": "VistaUsuario.html",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documentos\\Semestre3\\Bases\\Tarea1-PruebaDeConcepto\\Tarea1-PruebaDeConcepto\\wwwroot\\VistaUsuario.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sWk1XbQhMFbJWzFGA1CkEbUFhxOs4rACVQJl5cbMUbY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 05:16:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sWk1XbQhMFbJWzFGA1CkEbUFhxOs4rACVQJl5cbMUbY="
         }
       ]
     }

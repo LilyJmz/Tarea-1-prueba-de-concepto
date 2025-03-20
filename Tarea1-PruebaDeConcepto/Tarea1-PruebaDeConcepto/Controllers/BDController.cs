@@ -7,30 +7,35 @@ using Tarea1_PruebaDeConcepto.Modelos;
 
 namespace Tarea1_PruebaDeConcepto.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/BDController")]
     [ApiController]
     public class BDController : ControllerBase
     {
         //Un controller de tipo POST para enviar la informacion
-        [HttpPost("Insertar")]
+        [HttpPost("InsertarControlador")]
         public ActionResult<int> InsertarEmpleado([FromBody] Empleado empleado)
         {
+            Console.WriteLine("LLAMADO INSERTAR");
             int result = AccesarBD.InsertarEmpleado(empleado.Nombre, empleado.Salario);
-            if (result != 0)
+            if (result == 0)
             {
                 return Ok(result); 
             }
-            return BadRequest("Error al insertar empleado");
+            return BadRequest(new { message = "Error al insertar empleado", codigoError = result });
         }
 
         
 
 
         //Un controller de tipo GET para recibir la información de la lista de empleados
-        [HttpGet("Mostrar")]
+        [HttpGet("MostrarControlador")]
         public ActionResult<List<Empleado>> MostrarEmpleados()
         {
             var empleados = AccesarBD.MostrarEmpleados();
+            if (empleados.Count == 0)
+            {
+                return NotFound(new { message = "No se encontraron empleados." });
+            }
             return Ok(empleados);
         }
     }

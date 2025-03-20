@@ -4,9 +4,12 @@
     {
         public int id { get; set; }
         public string Nombre { get; set; }
-        public double Salario { get; set; }
+        public decimal Salario { get; set; }
 
-        public Empleado(int id, string Nombre, double Salario)
+        public Empleado() { 
+        }
+
+        public Empleado(int id, string Nombre, decimal Salario)
         {
             this.id = id;
             this.Nombre = Nombre;

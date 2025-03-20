@@ -2,7 +2,7 @@
   {
     "ContainingType": "Tarea1_PruebaDeConcepto.Controllers.BDController",
     "Method": "InsertarEmpleado",
-    "RelativePath": "api/BD/Insertar",
+    "RelativePath": "api/BDController/InsertarControlador",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -28,7 +28,7 @@
   {
     "ContainingType": "Tarea1_PruebaDeConcepto.Controllers.BDController",
     "Method": "MostrarEmpleados",
-    "RelativePath": "api/BD/Mostrar",
+    "RelativePath": "api/BDController/MostrarControlador",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -44,15 +44,5 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "Tarea1_PruebaDeConcepto.Controllers.HomeController",
-    "Method": "Get",
-    "RelativePath": "api/Home",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
   }
 ]
