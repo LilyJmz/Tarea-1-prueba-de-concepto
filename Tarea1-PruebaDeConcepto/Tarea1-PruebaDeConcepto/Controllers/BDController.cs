@@ -15,13 +15,19 @@ namespace Tarea1_PruebaDeConcepto.Controllers
         [HttpPost("InsertarControlador")]
         public ActionResult<int> InsertarEmpleado([FromBody] Empleado empleado)
         {
-            Console.WriteLine("LLAMADO INSERTAR");
-            int result = AccesarBD.InsertarEmpleado(empleado.Nombre, empleado.Salario);
-            if (result == 0)
+            try
             {
-                return Ok(result); 
+                int result = AccesarBD.InsertarEmpleado(empleado.Nombre, empleado.Salario);
+                if (result == 0)
+                {
+                    return Ok(result);
+                }
+                return BadRequest(new { message = "Error al insertar empleado", codigoError = result });
             }
-            return BadRequest(new { message = "Error al insertar empleado", codigoError = result });
+            catch
+            {
+                return(null);
+            }
         }
 
         
@@ -31,12 +37,20 @@ namespace Tarea1_PruebaDeConcepto.Controllers
         [HttpGet("MostrarControlador")]
         public ActionResult<List<Empleado>> MostrarEmpleados()
         {
-            var empleados = AccesarBD.MostrarEmpleados();
-            if (empleados.Count == 0)
+            try
             {
-                return NotFound(new { message = "No se encontraron empleados." });
+                var empleados = AccesarBD.MostrarEmpleados();
+                if (empleados.Count == 0)
+                {
+                    return NotFound(new { message = "No se encontraron empleados." });
+                }
+                return Ok(empleados);
             }
-            return Ok(empleados);
+            catch
+            {
+                Console.WriteLine("No se muestra la tabla");
+                return (null);
+            }
         }
     }
 }

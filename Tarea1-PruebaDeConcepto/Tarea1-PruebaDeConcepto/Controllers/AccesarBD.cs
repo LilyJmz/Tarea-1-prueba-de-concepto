@@ -35,7 +35,6 @@ public class AccesarBD
                     insertar.ExecuteNonQuery();
 
                     //Devuelve el código de error
-                    Console.WriteLine("HE LLEGADO A ACCESAR");
                     return (int)outCodigoError.Value;
                 }
             }
@@ -43,7 +42,7 @@ public class AccesarBD
         catch (Exception ex)
         {
             //Error en capa lógica
-            Console.WriteLine("Error EN ACCESAR: " + ex.Message);
+            Console.WriteLine("Error en accesar BD");
             return 50005;
         }
     }
@@ -94,7 +93,7 @@ public class AccesarBD
         catch (Exception ex)
         {
             // Error en capa lógica
-            Console.WriteLine("Error al mostrar empleados: " + ex.Message);
+            Console.WriteLine("Error al mostrar empleados");
         }
 
         return empleados;

@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>98uf0cobig</Fingerprint>
-      <Integrity>N8k8oonkZkvlrfElAqOMweMHyDMsHvzh9SgpuPb9hYM=</Integrity>
+      <Fingerprint>ucw99z13p3</Fingerprint>
+      <Integrity>DvEQTcylSWY+PVPbgcS2A0Kv1JpGYi8BQ5bKv+bdGrw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\FontsYEstilos.css'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fipur0i0v7</Fingerprint>
-      <Integrity>WQicLLCT+wiRZq4Y+uRW65JIeN0HzapQr+t0zVB1n9U=</Integrity>
+      <Fingerprint>6vj6gydl1w</Fingerprint>
+      <Integrity>EpL4Je7Y5588xHdn+izVq07ApBPW4NsiBCMA6K1rjNg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\InsertarEmpleado.html'))</OriginalItemSpec>
@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>udojbd08c1</Fingerprint>
-      <Integrity>zr4LbC4xSQyw3zVX7eN163iOsz8rFNS1dXS+T1qU/jU=</Integrity>
+      <Fingerprint>jqgquen8t1</Fingerprint>
+      <Integrity>xeLZJnFcE8yUnKEvQ5Cvv4XKWj+3npYe5QG2r6jbIiQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Script.js'))</OriginalItemSpec>

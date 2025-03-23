@@ -1,4 +1,4 @@
-﻿console.log("Script.js se ha cargado correctamente.");
+﻿
 
 //Acciones en html
 document.addEventListener("DOMContentLoaded", function () {
@@ -11,11 +11,10 @@ document.addEventListener('DOMContentLoaded', function () {
         const button = document.getElementById('irInsertarEmpleado');
         button.addEventListener('click', function () {
             window.location.href = 'InsertarEmpleado.html';
-            console.log("HEMOS APRETADO EL BOTON")
         });
     }
     catch {
-        console.log("Boton no existe")
+        return (null);
     }
 });
 
@@ -23,17 +22,33 @@ document.addEventListener('DOMContentLoaded', function () {
     try {
         const button = document.getElementById('accionInsertar');
         button.addEventListener('click', function () {
-            const nombre = document.getElementById('nombre').value;
+        const nombre = document.getElementById('nombre').value;
+        const salarioStr = document.getElementById('salario').value;
 
+        const nameRegex = /^[a-zA-Z\s\-]+$/;
+        if (nombre === "") {
+            alert("No puede dejar su nombre vacío");
+        } else if (!nameRegex.test(nombre)) {
+            alert("No puede ingresar caracteres especiales en su nombre");
+        } else if (!/^\d+(\.\d{1,2})?$/.test(salarioStr)) {
+            alert("Solo puede ingresar números y un punto decimal en su salario");
+        }
+        else if (salario === "") {
+            alert("No puede dejar el salario vacío");
+        } else {
 
-            const salario = parseFloat(document.getElementById('salario').value);
-
-            insertarEmpleado(nombre, salario)
-            console.log("HEMOS APRETADO EL BOTON")
+            const salario = parseFloat(salarioStr);
+            if (isNaN(salario)) {
+                alert("Solo puede ingresar números y un punto decimal en su salario");
+            } else {
+                    insertarEmpleado(nombre, salario);
+            }
+        }
         });
     }
     catch {
-        console.log("Boton no existe")    }
+        return (null);
+        }
 });
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -44,25 +59,35 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
     catch {
-        console.log("Boton no existe")
+        return (null);
     }
 });
 
 
 // Llamar a stored procedures
 function insertarEmpleado(nombre, salario) {
-    fetch('https://localhost:5001/api/BDController/InsertarControlador', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-            Nombre: nombre,
-            Salario: salario
-        }),
-    }).then(respuesta => respuesta.json())
-        .then(datos => console.log(datos))
-    console.log("HEMOS REALIZADO EL FETCH")
+    try {
+        fetch('https://localhost:5001/api/BDController/InsertarControlador', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                Nombre: nombre,
+                Salario: salario
+            }),
+        }).then(respuesta => respuesta.json())
+            .then(datos => console.log(datos))
+        if (respuesta.status === 400) {
+            alert("El empleado ya está registrado")
+        }
+        else {
+            alert("Empleado insertado exitosamente");
+        }
+    }
+    catch {
+        alert("El empleado ya está registrado")
+    }
 }
 
 
@@ -104,10 +129,10 @@ function mostrarEmpleado() {
 
             })
             .catch(error => {
-                console.error('Error al obtener los datos:', error);
+                console.log("No se muestra la tabla");
             });
     } catch (error) {
-        console.error('Error en el bloque try:', error);
+        console.log("No se muestra la tabla");
     }
 }
 

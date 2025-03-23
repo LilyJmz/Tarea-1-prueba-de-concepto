@@ -1,9 +1,10 @@
-﻿body {
+﻿
+h1 {
+    text-align: center;
     font-family: sans-serif;
 }
 button {
     padding: 10px 20px;
-    margin-left: 600px;
     font-size: 16px;
     cursor: pointer;
     background-color: #577fef;
@@ -15,3 +16,67 @@ button {
     button:hover {
         background-color: #3c5db9;
     }
+
+
+#irInsertarEmpleado {
+    position: relative;
+    margin-top: 20px; /*distancia entre boton y tabla*/
+    left: 600px;
+}
+
+#accionInsertar {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
+
+#regresarInsertarVista {
+    position: absolute;
+    top: 400px;
+    left: 750px;
+}
+
+table{ /*Tabla general*/
+    margin: auto;
+    border: 1px solid black;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th { /*Titulos de tabla*/
+    background-color: #a5e1f5;
+}
+td { /*Celdas de tabla*/
+    background-color: #ffffff;
+} 
+
+td, th
+{
+    border: 1px solid black;
+    padding: 5px;
+    height: 20px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) { /*Alternar color en las celdas para mayor legibilidad*/
+    background-color: #b4babb;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    font-size: 25px;
+    margin-top: 38px;
+    margin-left: 425px;
+}
+
+input[type="text"] {
+    font-size: 18px;
+    width: 30%;
+    margin-left: 425px;
+}
+
