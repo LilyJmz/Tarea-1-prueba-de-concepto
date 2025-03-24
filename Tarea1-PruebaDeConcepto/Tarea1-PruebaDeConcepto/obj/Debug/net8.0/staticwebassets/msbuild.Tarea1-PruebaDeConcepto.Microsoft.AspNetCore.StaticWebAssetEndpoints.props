@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Script.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jqgquen8t1"},{"Name":"integrity","Value":"sha256-xeLZJnFcE8yUnKEvQ5Cvv4XKWj\u002B3npYe5QG2r6jbIiQ="},{"Name":"label","Value":"_content/Tarea1-PruebaDeConcepto/js/Script.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4733"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022xeLZJnFcE8yUnKEvQ5Cvv4XKWj\u002B3npYe5QG2r6jbIiQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Mar 2025 03:20:26 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4733"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022xeLZJnFcE8yUnKEvQ5Cvv4XKWj\u002B3npYe5QG2r6jbIiQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Mar 2025 03:21:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Tarea1-PruebaDeConcepto/js/Script.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Script.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xeLZJnFcE8yUnKEvQ5Cvv4XKWj\u002B3npYe5QG2r6jbIiQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4733"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022xeLZJnFcE8yUnKEvQ5Cvv4XKWj\u002B3npYe5QG2r6jbIiQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Mar 2025 03:20:26 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4733"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022xeLZJnFcE8yUnKEvQ5Cvv4XKWj\u002B3npYe5QG2r6jbIiQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Mar 2025 03:21:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Tarea1-PruebaDeConcepto/VistaUsuario.fgoa4esrhs.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\VistaUsuario.html'))</AssetFile>

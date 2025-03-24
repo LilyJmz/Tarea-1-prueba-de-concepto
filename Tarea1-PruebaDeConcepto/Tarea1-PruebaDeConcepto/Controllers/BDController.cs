@@ -18,11 +18,15 @@ namespace Tarea1_PruebaDeConcepto.Controllers
             try
             {
                 int result = AccesarBD.InsertarEmpleado(empleado.Nombre, empleado.Salario);
-                if (result == 0)
+                if (result == 0) //El stored procedure devuelve 0 todo está bien
                 {
                     return Ok(result);
                 }
-                return BadRequest(new { message = "Error al insertar empleado", codigoError = result });
+                else
+                {
+                    return BadRequest(new { message = "Error al insertar empleado", codigoError = result });
+                    //El stored procedure encuentra un error
+                }
             }
             catch
             {
@@ -40,11 +44,11 @@ namespace Tarea1_PruebaDeConcepto.Controllers
             try
             {
                 var empleados = AccesarBD.MostrarEmpleados();
-                if (empleados.Count == 0)
+                if (empleados.Count == 0) //No hay empleados en la tabla
                 {
-                    return NotFound(new { message = "No se encontraron empleados." });
+                    return BadRequest(new { message = "La tabla se encuentra vacía"});
                 }
-                return Ok(empleados);
+                return Ok(empleados);//El stored procedure devuelve la lista de empleados
             }
             catch
             {

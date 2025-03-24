@@ -21,7 +21,7 @@ button {
 #irInsertarEmpleado {
     position: relative;
     margin-top: 20px; /*distancia entre boton y tabla*/
-    left: 600px;
+    left: 575px;
 }
 
 #accionInsertar {
@@ -56,10 +56,6 @@ td, th
     padding: 5px;
     height: 20px;
     text-align: center;
-}
-
-tbody tr:nth-child(even) { /*Alternar color en las celdas para mayor legibilidad*/
-    background-color: #b4babb;
 }
 
 form {

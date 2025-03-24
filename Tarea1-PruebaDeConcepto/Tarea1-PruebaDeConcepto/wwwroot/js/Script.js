@@ -1,11 +1,14 @@
 ﻿
 
 //Acciones en html
-document.addEventListener("DOMContentLoaded", function () {
+
+//Carga la tabla cuando se corre la página
+document.addEventListener("DOMContentLoaded", function () { 
     mostrarEmpleado();
     console.log("Script.js se ha cargado correctamente");
 });
 
+//Si le da a botón insertar cambia de página
 document.addEventListener('DOMContentLoaded', function () {
     try {
         const button = document.getElementById('irInsertarEmpleado');
@@ -18,18 +21,22 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
+//Si le da a botón insertar revisa el contenido de los cuadros de texto
 document.addEventListener('DOMContentLoaded', function () {
     try {
         const button = document.getElementById('accionInsertar');
         button.addEventListener('click', function () {
-        const nombre = document.getElementById('nombre').value;
-        const salarioStr = document.getElementById('salario').value;
+        const nombre = document.getElementById('nombre').value.trim();
+        const salarioStr = document.getElementById('salario').value.trim();
 
+        //Validaciones de nombre
         const nameRegex = /^[a-zA-Z\s\-]+$/;
         if (nombre === "") {
             alert("No puede dejar su nombre vacío");
         } else if (!nameRegex.test(nombre)) {
             alert("No puede ingresar caracteres especiales en su nombre");
+
+        //Validaciones de salario
         } else if (!/^\d+(\.\d{1,2})?$/.test(salarioStr)) {
             alert("Solo puede ingresar números y un punto decimal en su salario");
         }
@@ -41,6 +48,8 @@ document.addEventListener('DOMContentLoaded', function () {
             if (isNaN(salario)) {
                 alert("Solo puede ingresar números y un punto decimal en su salario");
             } else {
+
+                //Llama función si los campos son correctos
                     insertarEmpleado(nombre, salario);
             }
         }
@@ -51,6 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 });
 
+//Si le da click a regresar vuelve a la página inicial
 document.addEventListener('DOMContentLoaded', function () {
     try {
         const button = document.getElementById('regresarInsertarVista');
@@ -66,75 +76,81 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Llamar a stored procedures
 function insertarEmpleado(nombre, salario) {
-    try {
-        fetch('https://localhost:5001/api/BDController/InsertarControlador', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-                Nombre: nombre,
-                Salario: salario
-            }),
-        }).then(respuesta => respuesta.json())
-            .then(datos => console.log(datos))
-        if (respuesta.status === 400) {
-            alert("El empleado ya está registrado")
-        }
-        else {
+    fetch('https://localhost:5001/api/BDController/InsertarControlador', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            Nombre: nombre,
+            Salario: salario
+        }),
+    })
+        .then(respuesta => {
+            //Si devuelve que el nombre está repetido activa una alerta
+            if (!respuesta.ok) {
+                throw new Error(); 
+            }
+            return respuesta.json();
+        })
+        .then(datos => {
+            //Si todo está bien da mensaje de éxito
             alert("Empleado insertado exitosamente");
-        }
-    }
-    catch {
-        alert("El empleado ya está registrado")
-    }
+        })
+        .catch(() => {
+            alert("Este empleado ya ha sido registrado");
+        });
 }
+
 
 
 function mostrarEmpleado() {
-    try {
-        fetch('https://localhost:5001/api/BDController/MostrarControlador')
-            .then(respuesta => respuesta.json())  // Convierte la respuesta a JSON
-            .then(datos => {
-                console.log("Respuesta recibida del servidor:", datos);
+    fetch('https://localhost:5001/api/BDController/MostrarControlador')
+        .then(respuesta => {
+            if (!respuesta.ok) {
+                throw new Error();
+            }
+            return respuesta.json();
+        })
+        .then(datos => {
+            const tbody = document.querySelector("#datosTabla");
+            tbody.innerHTML = "";
 
-                const tbody = document.querySelector("#datosTabla");
+            //Si la tabla está vacía
+            if (datos.length === 0) {
+                const trInicio = document.createElement("tr");
+                const tdNoData = document.createElement("td");
+                tdNoData.colSpan = 3;
+                tdNoData.textContent = "La tabla está vacía.";
+                trInicio.appendChild(tdNoData);
+                tbody.appendChild(trInicio);
 
-                if (datos.length == 0) {
+            //Crea dinamicamente la tabla
+            } else {
+                datos.forEach((empleado) => {
                     const trInicio = document.createElement("tr");
-                    const tdNoData = document.createElement("td");
-                    tdNoData.colSpan = 3;
-                    tdNoData.textContent = "La tabla está vacía.";
-                    trInicio.appendChild(tdNoData);
+
+                    let tdId = document.createElement("td");
+                    tdId.textContent = empleado.id;
+                    trInicio.appendChild(tdId);
+
+                    let tdNombre = document.createElement("td");
+                    tdNombre.textContent = empleado.nombre;
+                    trInicio.appendChild(tdNombre);
+
+                    let tdSaldo = document.createElement("td");
+                    tdSaldo.textContent = empleado.salario;
+                    trInicio.appendChild(tdSaldo);
+
                     tbody.appendChild(trInicio);
-                } else {
-                    datos.forEach((empleado) => {
-                        const trInicio = document.createElement("tr");
-
-                        let tdId = document.createElement("td");
-                        tdId.textContent = empleado.id;  // Asume que el campo es 'id'
-                        trInicio.appendChild(tdId);
-
-                        let tdNombre = document.createElement("td");
-                        tdNombre.textContent = empleado.nombre;  // Asume que el campo es 'nombre'
-                        trInicio.appendChild(tdNombre);
-
-                        let tdSaldo = document.createElement("td");
-                        tdSaldo.textContent = empleado.salario;  // Asume que el campo es 'salario'
-                        trInicio.appendChild(tdSaldo);
-
-                        tbody.appendChild(trInicio);
-                    });
-                }
-
-            })
-            .catch(error => {
-                console.log("No se muestra la tabla");
-            });
-    } catch (error) {
-        console.log("No se muestra la tabla");
-    }
+                });
+            }
+        })
+        .catch(() => {
+            console.log("No se muestra la tabla.");
+        });
 }
+
 
 
 
