@@ -96,6 +96,6 @@ public class AccesarBD
             Console.WriteLine("Error al mostrar empleados");
         }
 
-        return empleados;
+        return empleados.OrderBy(e => e.Nombre).ToList(); //Orden ascendente por nombre
     }
 }
